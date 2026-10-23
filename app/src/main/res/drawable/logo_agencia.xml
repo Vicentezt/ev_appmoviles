@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M10,0 H110 Q120,0 120,10 V110 Q120,120 110,120 H10 Q0,120 0,110 V10 Q0,0 10,0 Z" />
+
+    <!-- Escudo (convenio / beneficio) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,14 L96,28 V58 Q96,90 60,106 Q24,90 24,58 V28 Z" />
+
+    <!-- Check -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M42,60 L56,74 L80,46" />
+</vector>
