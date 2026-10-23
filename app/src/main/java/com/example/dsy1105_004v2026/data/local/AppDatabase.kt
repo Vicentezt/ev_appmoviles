@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [VentaEntity::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
 
-    abstract fun ventaDao(): VentaDao //gg
+    abstract fun ventaDao(): VentaDao //gg65295295295295295
 
     companion object {
         @Volatile
